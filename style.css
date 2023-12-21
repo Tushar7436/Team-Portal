@@ -1,100 +1,95 @@
 /* BASIC ATTRIBUTES */
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* NAVIGATION TOOLBAR */
-nav, .nav-links{
-    display: flex;
-
+nav,
+.nav-links {
+  display: flex;
 }
 
-nav{
-    justify-content: space-around;
-    align-items: center;
-    height: 17vh;
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
 
-.nav-links{
-    gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    text-decoration-color: white;
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
 }
 
 a:hover {
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
-
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 /* TEAM LOGO DESIGN */
 .logo {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .logo:hover {
-    cursor: default;
-
+  cursor: default;
 }
 
 section {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    height: 80vh;
-    margin: 0 2rem;
-    box-sizing: border-box;
-    min-height: fit-content;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  height: 80vh;
+  margin: 0 2rem;
+  box-sizing: border-box;
+  min-height: fit-content;
 }
 
 /* HOMEPAGE SECTION CSS */
 
 #Homepage {
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .home_text_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .home_pic_container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .home_text_div1 {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .home_heading {
-    font-weight: bold;
-    font-size: 80px;
+  font-weight: bold;
+  font-size: 80px;
 }
 
 .quote1 {
-    font-size: 30px;
+  font-size: 30px;
 }
-
