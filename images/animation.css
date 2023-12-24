@@ -1,0 +1,22 @@
+.PageName{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color:white;
+}
+@keyframe slideInleft {
+    from {
+        trasnform: tranlateX(-300px);
+    }
+    to {
+        trasnform: translateX(0);
+    }
+}
+.PageName{  
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-direction: -300px;
+}
